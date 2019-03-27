@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YogaKit-GM'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YogaKit-GM.'
+  s.summary          = 'A copy of YogaKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A copy of YogaKit.
                        DESC
 
   s.homepage         = 'https://github.com/guangmingzizai/YogaKit-GM'
@@ -26,17 +26,10 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guangmingzizai' => 'wangjf01@missfresh.cn' }
   s.source           = { :git => 'https://github.com/guangmingzizai/YogaKit-GM.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.ios.frameworks = 'UIKit'
 
   s.source_files = 'YogaKit-GM/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YogaKit-GM' => ['YogaKit-GM/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Yoga', '~> 1.9'
 end

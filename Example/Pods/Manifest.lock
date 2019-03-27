@@ -1,0 +1,16 @@
+PODS:
+  - YogaKit-GM (0.1.0)
+
+DEPENDENCIES:
+  - YogaKit-GM (from `../`)
+
+EXTERNAL SOURCES:
+  YogaKit-GM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YogaKit-GM: 9a4880cd1fe0c0fe20c7a63c8e9f5e9be6e526fb
+
+PODFILE CHECKSUM: c7af53ef7249648c2cfaca83b7d547960fef2d91
+
+COCOAPODS: 1.6.1

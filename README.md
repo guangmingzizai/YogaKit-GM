@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YogaKit-GM.svg?style=flat)](https://cocoapods.org/pods/YogaKit-GM)
 [![Platform](https://img.shields.io/cocoapods/p/YogaKit-GM.svg?style=flat)](https://cocoapods.org/pods/YogaKit-GM)
 
+A copy of YogaKit, remove the swift file.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
